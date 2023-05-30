@@ -1,0 +1,24 @@
+{% render 'collection-grid-filter-controls', section: section, collection: collection %}
+
+{% schema %}
+{
+  "name": "t:sections.collection-filters.name",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.collection-filters.settings.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_color_swatches",
+      "label": "t:sections.collection-filters.settings.enable_color_swatches.label",
+      "info": "t:sections.collection-filters.settings.enable_color_swatches.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_sort_enable",
+      "label": "t:sections.collection-filters.settings.collection_sort_enable.label"
+    }
+  ]
+}
+{% endschema %}

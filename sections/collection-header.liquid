@@ -1,0 +1,66 @@
+{%- if section.settings.collection_image_enable and collection.image -%}
+  <div class="collection-hero"
+    data-aos="hero__animation">
+
+    {%- render 'image-element',
+      img: collection.image,
+      img_width: 2400,
+      classes: 'collection-hero__image',
+      preload: true,
+      loading: 'eager',
+    -%}
+
+    <div class="collection-hero__content">
+      <div class="page-width text-center">
+        <div class="hero__text-shadow" data-aos>
+          <header class="section-header section-header--hero" data-aos>
+            <h1 class="section-header__title appear-delay">
+              {{ collection.title }}
+            </h1>
+            {%- if collection.description != blank and section.settings.description_enable -%}
+              {%- assign desc_length = collection.description | size -%}
+              <div class="rte section-header__description{% if desc_length < 200 %} section-header__description--large{% endif %} appear-delay-1">
+                {{ collection.description }}
+              </div>
+            {%- endif -%}
+          </header>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- else -%}
+  <div class="page-width page-content page-content--flush-bottom">
+    <header class="section-header" data-aos>
+      <h1 class="section-header__title appear-delay">
+        {{ collection.title }}
+      </h1>
+
+      {%- if collection.description != blank and section.settings.description_enable -%}
+        {%- assign desc_length = collection.description | size -%}
+        <div class="rte section-header__description{% if desc_length < 200 %} section-header__description--large{% endif %} appear-delay-1">
+          {{ collection.description }}
+        </div>
+      {%- endif -%}
+    </header>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.collection-header.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "collection_image_enable",
+      "label": "t:sections.collection-header.settings.collection_image_enable.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "description_enable",
+      "label": "t:sections.collection-header.settings.description_enable.label",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

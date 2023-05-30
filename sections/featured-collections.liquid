@@ -1,0 +1,103 @@
+<div class="index-section{% if section.settings.alt %} index-section--alt{% endif %}">
+  <div data-aos>
+
+    {%- if section.settings.title != blank -%}
+      <div class="page-width">
+        <header class="section-header">
+          <h2 class="section-header__title appear-delay">
+            {{ section.settings.title }}
+          </h2>
+        </header>
+      </div>
+    {%- endif -%}
+
+    <div class="page-width">
+      <div class="skrim-grid appear-delay-2">
+        {%- liquid
+          assign isEmpty = true
+
+          if section.blocks.size > 0
+            assign isEmpty = false
+          endif
+
+          for block in section.blocks limit: collection_limit
+            render 'collection-grid-item', block: block, collection: collections[block.settings.collection], image: block.settings.image, sizeVariable: '25vw', fallback: '50vw'
+          endfor
+        -%}
+
+        {%- if isEmpty -%}
+          <div class="page-width">
+            <div class="grid">
+              <div class="grid__item">
+                <div class="rte">
+                  {{ 'home_page.onboarding.no_content' | t }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.featured-collections.name",
+  "max_blocks": 15,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.featured-collections.settings.title.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "alt",
+      "label": "t:sections.featured-collections.settings.alt.label"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.featured-collections.presets.collection_list.name",
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "t:sections.featured-collections.blocks.collection.name",
+      "settings": [
+        {
+          "id": "collection",
+          "type": "collection",
+          "label": "t:sections.featured-collections.blocks.collection.settings.collection.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.featured-collections.blocks.collection.settings.image.label"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "custom.popups"]
+  }
+}
+{% endschema %}

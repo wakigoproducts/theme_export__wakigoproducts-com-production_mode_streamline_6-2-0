@@ -1,0 +1,172 @@
+{%- liquid
+  assign paginate_by = 24
+  assign mobile_flush = false
+  assign per_row_desktop = section.settings.per_row_desktop
+  assign per_row_mobile = section.settings.per_row_mobile
+  if per_row_mobile == '2-flush'
+    assign mobile_flush = true
+  endif
+
+  case per_row_desktop
+    when 2
+      assign grid_large_width = 'medium-up--one-half'
+    when 3
+      assign grid_large_width = 'medium-up--one-third'
+    when 4
+      assign grid_large_width = 'medium-up--one-quarter'
+  endcase
+
+  assign grid_small_width = 'grid-product--padded'
+
+  if per_row_mobile contains '2'
+    assign per_row_mobile = 2
+    assign grid_small_width = 'small--one-half'
+    assign fallback = '50vw'
+  endif
+-%}
+
+{%- capture grid_item_width -%}{{ grid_small_width }} {{ grid_large_width}}{%- endcapture -%}
+
+{% paginate search.results by 12 %}
+
+<div
+  id="CollectionGrid"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-grid"
+  data-product-sliders-mobile="{% if per_row_mobile == '1' %}true{% else %}false{% endif %}">
+
+  <div class="page-width page-content page-content--flush-bottom">
+    <header class="section-header">
+      <h1 class="section-header__title">
+        {{ 'general.search.title' | t }}
+      </h1>
+      <div class="section-header__description">
+        {%- if search.performed -%}
+          {%- if search.results_count == 0 -%}
+            {{ 'general.search.no_results_html' | t: terms: search.terms }}
+          {%- else -%}
+            {{ 'general.search.result_count' | t: count: search.results_count }}
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- render 'search-bar', search_btn_style: 'btn', search_bar_location: 'search-bar--page' -%}
+      </div>
+    </header>
+  </div>
+
+  {%- if section.settings.enable_sidebar -%}
+    {% render 'collection-grid-filter-controls', section: section, collection: search %}
+  {%- endif -%}
+
+
+  {%- if search.performed -%}
+    <div id="CollectionAjaxContent" class="page-width">
+      <div class="grid grid--uniform grid--scattered-large-{{ per_row_desktop }} grid--scattered-small-{{ per_row_mobile }}{% if mobile_flush %} small--grid--flush{% endif %}">
+        {%- for item in search.results -%}
+
+          {%- if item.object_type == 'product' -%}
+            {%- render 'product-grid-item'
+              product: item,
+              grid_item_width: grid_item_width,
+              sizeVariable: grid_large_width,
+              fallback: fallback,
+            -%}
+          {%- else -%}
+            <div class="grid__item grid-search {{ grid_item_width }}">
+              <div class="grid-search__page">
+                <a href="{{ item.url }}" class="grid-search__page-link">
+                  <span class="grid-search__page-content">
+                    <span class="h4">{{ item.title }}</span>
+                    {%- if item.object_type == 'article' and item.image -%}
+                      {%- render 'image-element',
+                        img: item.image,
+                        classes: 'grid-product__image',
+                        alt: item.title,
+                        widths: '180, 360, 540',
+                        sizeVariable: grid_large_width,
+                        fallback: fallback,
+                      -%}
+                    {%- endif -%}
+                    <p>{{ item.content | strip_html | truncatewords: 60 }}</p>
+                  </span>
+                </a>
+              </div>
+            </div>
+          {%- endif -%}
+
+        {%- endfor -%}
+      </div>
+    </div>
+
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+
+  {%- endif -%}
+</div>
+
+{% endpaginate %}
+
+{% schema %}
+{
+  "name": "t:sections.main-search.name",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.main-search.settings.header_filtering_and_sorting"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sidebar",
+      "label": "t:sections.main-search.settings.enable_sidebar.label",
+      "default": true,
+      "info": "t:sections.main-search.settings.enable_sidebar.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_color_swatches",
+      "label": "t:sections.main-search.settings.enable_color_swatches.label",
+      "info": "t:sections.main-search.settings.enable_color_swatches.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_sort_enable",
+      "label": "t:sections.main-search.settings.collection_sort_enable.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-search.settings.header_product_grid"
+    },
+    {
+      "type": "range",
+      "id": "per_row_desktop",
+      "label": "t:sections.main-search.settings.per_row_desktop.label",
+      "default": 3,
+      "min": 2,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "select",
+      "id": "per_row_mobile",
+      "label": "t:sections.main-search.settings.per_row_mobile.label",
+      "default": "1",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.main-search.settings.per_row_mobile.options.2.label"
+        },
+        {
+          "value": "2-flush",
+          "label": "t:sections.main-search.settings.per_row_mobile.options.2-flush.label"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
