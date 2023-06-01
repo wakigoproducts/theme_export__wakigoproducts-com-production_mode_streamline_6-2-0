@@ -39,7 +39,7 @@
     "animate_images": true,
     "animate_page_transitions": true,
     "logo_loader_image": "shopify:\/\/shop_images\/Hassman_Too_Dry_Online_Store.png",
-    "desktop_loader_width": 210,
+    "desktop_loader_width": 250,
     "mobile_loader_width": 180,
     "product_hover_details": true,
     "product_hover_image": false,
