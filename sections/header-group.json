@@ -13,8 +13,8 @@
     "header": {
       "type": "header",
       "settings": {
-        "header_style": "bar",
-        "main_menu_alignment": "center-split",
+        "header_style": "button",
+        "main_menu_alignment": "center",
         "sticky_index": true,
         "sticky_collection": false,
         "header_search_enable": false,
