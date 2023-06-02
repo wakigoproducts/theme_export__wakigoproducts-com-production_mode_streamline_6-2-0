@@ -48,16 +48,10 @@
             "image": "shopify:\/\/shop_images\/WAKI-GO_Benefits.png",
             "image_mobile": "shopify:\/\/shop_images\/Barra_Beneficios_Movil.png"
           }
-        },
-        "d1c8cd67-2967-443b-882d-8f220b09aed9": {
-          "type": "image",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "template--15658845077604__20ce7597-c7e1-41f1-ac9c-ced2f86d5615-16814387367c3d9f34-0",
-        "d1c8cd67-2967-443b-882d-8f220b09aed9"
+        "template--15658845077604__20ce7597-c7e1-41f1-ac9c-ced2f86d5615-16814387367c3d9f34-0"
       ],
       "custom_css": [
 
