@@ -13,7 +13,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "header_style": "bar",
+        "header_style": "button",
         "main_menu_alignment": "center",
         "sticky_index": true,
         "sticky_collection": false,
