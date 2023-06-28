@@ -18,7 +18,7 @@
     "text-and-image": {
       "type": "text-and-image",
       "custom_css": [
-        ".feature-row__item.feature-row__text.feature-row__text--right.text-center.aos-init.aos-animate div a:hover {color: #FFF!important; border-color: #FFF!important; background-color: #000!important;}"
+        ".feature-row__item.feature-row__text.feature-row__text--right.text-center.aos-init.aos-animate div a:hover {color: #fff !important; border-color: #fff !important; background-color: #000 !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Combo_WAKI_GO_Just_Pour_Water_Tazon_Guacamole.png",
