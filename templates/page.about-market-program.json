@@ -18,7 +18,8 @@
     "16485300968ba099a8": {
       "type": "text-and-image",
       "custom_css": [
-        ".feature-row__item.feature-row__text.feature-row__text--right.text-center.aos-init.aos-animate div a:hover {color: #fff !important; border-color: #fff !important; background-color: #000 !important;}"
+        ".feature-row__item.feature-row__text.feature-row__text--right.text-center.aos-init.aos-animate div a:hover {color: #fff !important; border-color: #fff !important; background-color: #000 !important;}",
+        ".feature-row__item.feature-row__text.feature-row__text--left.text-center.aos-init.aos-animate div a:hover {color: #fff !important; border-color: #fff !important; background-color: #000 !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/combos-wholesale.png",
