@@ -14,7 +14,7 @@
     {%- render 'color-scheme-texture', color_scheme: section.settings.color_scheme -%}
   {%- endif -%}
 
-  <div class="page-width text-{{ section.settings.align_text }}">
+  <div class="1 page-width text-{{ section.settings.align_text }}">
     <div class="newsletter-section newsletter-section--image-{{ section.settings.image_position }} {% unless section.settings.image != blank %}newsletter-section--no-image{% endunless %}">
       <div class="newsletter-section__content">
         {%- for block in section.blocks -%}
