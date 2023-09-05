@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "USA shipping only"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "d8b44c74-b3b1-4a22-9962-8015fa5a788c": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_image": "shopify:\/\/shop_images\/Benefits_Icons_2_447c9c99-74d9-40b1-b9fe-28e8f0e41d41.png"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "d8b44c74-b3b1-4a22-9962-8015fa5a788c"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "stacked",
+        "thumbnail_height": "flexible",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Combo_WAKI_GO_Diced_Avocado_Snacks.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "THE SNACK-KING OF AVOCADO",
+        "text": "<p>Our tasteful Sea-Salt-Lime avocado dices are a perfect healthy alternative snack and valuable source of nutrients. Delicious for dipping and salad topping. It's good for your heart.<\/p><p><br\/>Warning: addictive (but it's OK it's healthy).<\/p><p><br\/><strong>Ingredients:<\/strong> Hass avocado, lemon juice and sea salt.<br\/><strong>Conservation:<\/strong> Store at 77°F (25°C) or below in a cool dry place and out of direct sunlight.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "66",
+        "layout": "right",
+        "alt": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "b9bc4a12-5ac2-45ec-bc88-9d9a82920bbe": {
+      "type": "hero-video",
+      "settings": {
+        "title": "WARNING:\nTOO DRY TO BE FREEZED",
+        "title_size": 80,
+        "subheading": "EAT, SLEEP, SNACK, REPEAT",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0a3c2abd678046a8bb54cb1db09ad93c.mp4",
+        "section_height": "450px",
+        "mobile_height": "100vh"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "alt": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 14
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text-and-image",
+    "b9bc4a12-5ac2-45ec-bc88-9d9a82920bbe",
+    "collection-return",
+    "sub",
+    "testimonials",
+    "product-recommendations"
+  ]
+}
