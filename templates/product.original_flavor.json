@@ -88,11 +88,10 @@
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Combo_WAKI_GO_Just_Pour_Water_Football_2.png",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "MVP SNACK OF THE TEAR: FREEZE DRIED AVOCADO",
+        "title": "READY IN ONE MINUTE",
         "text": "<p>Introducing our new 100% natural <br\/>tasty and healthy alternative snack. Ready in one minute with a valuable<br\/> source of nutrients and antioxidants. <\/p><p>Warning: too dry to be freezed.<\/p><p><strong>Ingredients:<\/strong> Hass avocado, lemon juice and salt.<\/p><p><strong>Conservation<\/strong>: Store at 77°F (25°C) or below in a cool dry place and out of direct sunlight.<\/p>",
         "button_label": "",
         "button_link": "",
