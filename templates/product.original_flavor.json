@@ -88,6 +88,7 @@
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/WAKI_GO_Original_Flavor_Just_Add_Water.png",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
