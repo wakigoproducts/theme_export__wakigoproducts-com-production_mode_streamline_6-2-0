@@ -72,7 +72,7 @@
     "social_vimeo_link": "",
     "share_facebook": true,
     "share_twitter": true,
-    "share_pinterest": true,
+    "share_pinterest": false,
     "favicon": "shopify:\/\/shop_images\/Hassman_Icon_White.png",
     "search_type": "product",
     "checkout_header_image": "",
