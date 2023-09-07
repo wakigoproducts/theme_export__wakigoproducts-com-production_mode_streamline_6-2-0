@@ -1,13 +1,44 @@
 {
   "sections": {
-    "fd1be85f-6967-40c3-aa07-4720a73f7bf7": {
-      "type": "featured-collection-slider",
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "Two line\nslide title.",
+            "title_size": 80,
+            "subheading": "And an optional subheading",
+            "link": "",
+            "link_text": "Optional button",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
       "settings": {
-        "title": "Featured collection",
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "a4ae8276-9ba9-400c-a860-c75c9dbc94e7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection grid",
         "description": "",
         "home_featured_products": "merch",
-        "per_row": "small",
-        "alt": false
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": true,
+        "alt": true
       }
     },
     "main-collection": {
@@ -30,42 +61,14 @@
         "product_grid",
         "collection_description"
       ],
-      "settings": {
-      }
-    },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "title": "Two line\nslide title.",
-            "title_size": 80,
-            "subheading": "And an optional subheading",
-            "link": "",
-            "link_text": "Optional button",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-bottom horizontal-left"
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0"
-      ],
       "disabled": true,
       "settings": {
-        "style": "arrows",
-        "desktop_size": 0,
-        "mobile_size": 0,
-        "autoplay": false,
-        "autoplay_speed": 7,
-        "lazyload_images": true
       }
     }
   },
   "order": [
-    "fd1be85f-6967-40c3-aa07-4720a73f7bf7",
-    "main-collection",
-    "slideshow"
+    "slideshow",
+    "a4ae8276-9ba9-400c-a860-c75c9dbc94e7",
+    "main-collection"
   ]
 }
