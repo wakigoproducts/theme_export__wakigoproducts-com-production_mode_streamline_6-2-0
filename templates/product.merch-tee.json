@@ -44,20 +44,15 @@
             "is_tab": false
           }
         },
-        "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
-          "type": "share",
-          "settings": {
-          }
-        },
-        "8672a021-1c00-4b6a-8032-784f9389e3e0": {
-          "type": "separator",
-          "settings": {
-          }
-        },
         "fedca3fe-5deb-4f23-a1eb-ae1c1397d27a": {
           "type": "size_chart",
           "settings": {
             "size_chart": "about-wholesale-program"
+          }
+        },
+        "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
+          "type": "share",
+          "settings": {
           }
         }
       },
@@ -68,9 +63,8 @@
         "inventory_status",
         "buy_buttons",
         "description",
-        "2b75e8e0-09b9-47b7-bd0b-551897063ef3",
-        "8672a021-1c00-4b6a-8032-784f9389e3e0",
-        "fedca3fe-5deb-4f23-a1eb-ae1c1397d27a"
+        "fedca3fe-5deb-4f23-a1eb-ae1c1397d27a",
+        "2b75e8e0-09b9-47b7-bd0b-551897063ef3"
       ],
       "settings": {
         "product_image_size": "large",
@@ -79,7 +73,7 @@
         "product_zoom_enable": true,
         "enable_video_looping": true,
         "product_video_style": "muted",
-        "sku_enable": false
+        "sku_enable": true
       }
     },
     "2354b785-afca-4970-bccc-282d748d1830": {
