@@ -1,5 +1,18 @@
 {
   "sections": {
+    "a4ae8276-9ba9-400c-a860-c75c9dbc94e7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection grid",
+        "description": "",
+        "home_featured_products": "merch",
+        "rows": 2,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": true,
+        "alt": true
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -19,6 +32,7 @@
       "block_order": [
         "slideshow-0"
       ],
+      "disabled": true,
       "settings": {
         "style": "arrows",
         "desktop_size": 0,
@@ -26,19 +40,6 @@
         "autoplay": false,
         "autoplay_speed": 7,
         "lazyload_images": true
-      }
-    },
-    "a4ae8276-9ba9-400c-a860-c75c9dbc94e7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection grid",
-        "description": "",
-        "home_featured_products": "merch",
-        "rows": 2,
-        "per_row_desktop": 3,
-        "per_row_mobile": "1",
-        "view_all": true,
-        "alt": true
       }
     },
     "main-collection": {
@@ -67,8 +68,8 @@
     }
   },
   "order": [
-    "slideshow",
     "a4ae8276-9ba9-400c-a860-c75c9dbc94e7",
+    "slideshow",
     "main-collection"
   ]
 }
