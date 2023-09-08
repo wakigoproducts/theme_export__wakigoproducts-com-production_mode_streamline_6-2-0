@@ -55,6 +55,12 @@
             "text": "{{ product.metafields.custom.details.value }}"
           }
         },
+        "ad46e061-c068-4275-833b-8c4b1dc5917d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.details.value }}"
+          }
+        },
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
           "type": "share",
           "settings": {
@@ -70,6 +76,7 @@
         "buy_buttons",
         "description",
         "b27bbea9-eb24-49a9-a593-f3bab3407c9c",
+        "ad46e061-c068-4275-833b-8c4b1dc5917d",
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3"
       ],
       "settings": {
