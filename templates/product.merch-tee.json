@@ -52,7 +52,7 @@
         "b27bbea9-eb24-49a9-a593-f3bab3407c9c": {
           "type": "text",
           "settings": {
-            "text": "{{ product.title }}"
+            "text": "{{ product.metafields.custom.details.value }}"
           }
         },
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
