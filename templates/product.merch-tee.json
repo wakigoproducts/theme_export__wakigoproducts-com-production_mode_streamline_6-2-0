@@ -75,6 +75,29 @@
             "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
             "page": ""
           }
+        },
+        "09508644-0110-44ad-97b3-a8b476580527": {
+          "type": "complementary_products",
+          "settings": {
+            "product_complementary_heading": "Pairs well with",
+            "complementary_count": 4,
+            "per_slide": 2,
+            "control_type": "dots",
+            "image_style": "default"
+          }
+        },
+        "134e6023-0578-4e84-babc-077c79d26e01": {
+          "type": "trust_badge",
+          "settings": {
+          }
+        },
+        "064f887f-a90d-4249-a889-fe4ed20dbb64": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -88,7 +111,10 @@
         "fedca3fe-5deb-4f23-a1eb-ae1c1397d27a",
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3",
         "ceaea277-36d4-4145-8faf-b16197fb85ad",
-        "2327c49f-30ad-4d51-8528-c45365d8d88c"
+        "2327c49f-30ad-4d51-8528-c45365d8d88c",
+        "09508644-0110-44ad-97b3-a8b476580527",
+        "134e6023-0578-4e84-babc-077c79d26e01",
+        "064f887f-a90d-4249-a889-fe4ed20dbb64"
       ],
       "settings": {
         "product_image_size": "large",
