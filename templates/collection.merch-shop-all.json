@@ -6,7 +6,7 @@
         "title": "#SNACKINSTYLE",
         "description": "",
         "home_featured_products": "merch",
-        "rows": 2,
+        "rows": 4,
         "per_row_desktop": 3,
         "per_row_mobile": "1",
         "view_all": true,
