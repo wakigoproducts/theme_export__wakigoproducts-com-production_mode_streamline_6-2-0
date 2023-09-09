@@ -49,16 +49,16 @@
             "is_tab": false
           }
         },
-        "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "56e94db1-2299-4045-8084-48ff8c9026ca": {
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
-            "custom_liquid": "{{ product.metafilds.custom.features | metafield_tag }}"
+            "custom_liquid": "{{ product.metafilds.custom.features }}"
+          }
+        },
+        "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
+          "type": "share",
+          "settings": {
           }
         }
       },
@@ -70,8 +70,8 @@
         "inventory_status",
         "buy_buttons",
         "description",
-        "2b75e8e0-09b9-47b7-bd0b-551897063ef3",
-        "56e94db1-2299-4045-8084-48ff8c9026ca"
+        "56e94db1-2299-4045-8084-48ff8c9026ca",
+        "2b75e8e0-09b9-47b7-bd0b-551897063ef3"
       ],
       "settings": {
         "product_image_size": "large",
