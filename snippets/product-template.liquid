@@ -363,6 +363,9 @@
                       <div class="product-block 1" {{ block.shopify_attributes }}>
                         {%- render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product -%}
                       </div>
+                    
+                    {% when 'custom_liquid' %}
+                    {{ product.metafilds.custom.features | metafield_tag }}
                     {%- when 'complementary_products' -%}
                       <div class="product-block" {{ block.shopify_attributes }}>
                         {%- render 'product-complementary', block: block, product: product, type: 'block', image_style: block.settings.image_style -%}
