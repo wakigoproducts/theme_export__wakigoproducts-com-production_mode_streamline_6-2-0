@@ -141,8 +141,6 @@
                     {%- when '@app' -%}
                       {% render block %}
                     
-                    {% when 'custom_liquid' %}
-                    {{block.settings.custom_liquid}}
                     {%- when 'separator' -%}
                       <div class="product-block" {{ block.shopify_attributes }}><hr class="hr-separator"></div>
                     {%- when 'text' -%}
