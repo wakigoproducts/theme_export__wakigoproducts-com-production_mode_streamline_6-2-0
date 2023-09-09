@@ -178,6 +178,9 @@
         "7b6c38a6-a239-4a99-9e2a-a263b9558811",
         "f0800936-bb1f-40ed-82c5-4746d3957255"
       ],
+      "custom_css": [
+        "@media (max-width: 767px){.desktop img {display:none;}}"
+      ],
       "settings": {
         "style": "dots",
         "desktop_size": 0,
