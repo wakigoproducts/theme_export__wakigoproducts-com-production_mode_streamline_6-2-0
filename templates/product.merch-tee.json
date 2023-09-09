@@ -58,7 +58,7 @@
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
-            "custom_liquid": "{{ product.metafilds.custom.features | metafield_tag }}"
+            "custom_liquid": "{{ product.metafilds.custom.features}}"
           }
         }
       },
