@@ -1,1 +1,155 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"16452083393cfa24a5":{"type":"hero-video","settings":{"title":"EVERY DAY IS \nAVOCADO DAY","title_size":80,"subheading":"Save up to 20% with our subscriptions plans and enjoy the best super food amazing health benefits.","link_text":"SUBSCRIBE AND SAVE","link":"shopify:\/\/collections\/all","color_accent":"#10b729","text_align":"vertical-center horizontal-center","video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d37655da76a94e048166124c85f94c99.mp4","section_height":"850px","mobile_height":"400px"}},"1661014030aea2179f":{"type":"text-columns","blocks":{"16610140304e3a401c-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Avocado_Woman.jpg","image_width":650,"title":"Blood Sugar & Heart Health","text":"<p>Aids in regulating and stabilizing blood sugar and provides oleic acid which improves the cardiovascular system. It also contains folic acid to control homocysteine levels.<\/p>","button_label":"","button_link":""}},"16610140304e3a401c-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Avocado_Black_1.jpg","image_width":650,"title":"Weight Loss","text":"<p>Contains more fiber than any other food and makes you feel full faster and your will eat less.<\/p>","button_label":"","button_link":""}},"697e1b5d-77da-41a6-87c4-185b42e6c5f3":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Avocado_Tomatoe.jpg","image_width":650,"title":"Immune System Booster","text":"<p>Contains antioxidant \"Glutathione\" which boosts the body system.<\/p>","button_label":"","button_link":""}}},"block_order":["16610140304e3a401c-0","16610140304e3a401c-1","697e1b5d-77da-41a6-87c4-185b42e6c5f3"],"settings":{"title":"WHY INCLUDE THIS SUPERFOOD IN YOUR DAILY DIET","align_text":"center","alt":true}},"16610150728ebfd741":{"type":"background-image-text","settings":{"subtitle":"ENJOY ALL BENEFITS NOW","title":"WHY SUBSCRIBE","text":"<p>Automatize your orders fulfillment <\/p><p>Save more with additional discounts<\/p><p>Automatic payments<\/p><p>Get free shipping<\/p><p>Keep control of your purchase history deliveries and subscriptions<\/p><p>Skip, reschedule, edit, or cancel deliveries anytime<\/p><p>Free gifts and giveaways<\/p><p>And more!<\/p>","button_label":"SUBSCRIBE AND SAVE","button_link":"shopify:\/\/collections\/all","image":"shopify:\/\/shop_images\/Avocado_Smoothie_jpg.jpg","desktop_size":-20,"color_border":"#000000","layout":"left"}},"1661015465694851a1":{"type":"text-columns","blocks":{"1661015465956a4703-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/WAKI-GO_Products.png","image_width":650,"title":"Select Your Products","text":"<p>Choose any delicious products your want to subscribe.<\/p>","button_label":"","button_link":""}},"1661015465956a4703-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Arrows_Frequency.png","image_width":650,"title":"Choose Frequency","text":"<p>Choose how often you want product delivered.<\/p>","button_label":"","button_link":""}},"15a0c03c-e58a-4ec0-b7d4-49219a2779b2":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Calendar_Icon_41ce4b49-033b-4688-b305-3cb1b3708016.png","image_width":650,"title":"Flexible Schedule","text":"<p>Easily change pause, skip or cancel at any time.<\/p>","button_label":"","button_link":""}}},"block_order":["1661015465956a4703-0","1661015465956a4703-1","15a0c03c-e58a-4ec0-b7d4-49219a2779b2"],"settings":{"title":"HOW IT WORKS?","align_text":"center","alt":true}}},"order":["main","16452083393cfa24a5","1661014030aea2179f","16610150728ebfd741","1661015465694851a1"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16452083393cfa24a5": {
+      "type": "hero-video",
+      "settings": {
+        "title": "EVERY DAY IS \nAVOCADO DAY",
+        "title_size": 80,
+        "subheading": "Save up to 20% with our subscriptions plans and enjoy the best super food amazing health benefits.",
+        "link_text": "SUBSCRIBE AND SAVE",
+        "link": "shopify:\/\/collections\/all",
+        "color_accent": "#10b729",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d37655da76a94e048166124c85f94c99.mp4",
+        "section_height": "850px",
+        "mobile_height": "400px"
+      }
+    },
+    "1661014030aea2179f": {
+      "type": "text-columns",
+      "blocks": {
+        "16610140304e3a401c-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Avocado_Woman.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Blood Sugar & Heart Health",
+            "text": "<p>Aids in regulating and stabilizing blood sugar and provides oleic acid which improves the cardiovascular system. It also contains folic acid to control homocysteine levels.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "16610140304e3a401c-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Avocado_Black_1.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Weight Loss",
+            "text": "<p>Contains more fiber than any other food and makes you feel full faster and your will eat less.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "697e1b5d-77da-41a6-87c4-185b42e6c5f3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Avocado_Tomatoe.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Immune System Booster",
+            "text": "<p>Contains antioxidant \"Glutathione\" which boosts the body system.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16610140304e3a401c-0",
+        "16610140304e3a401c-1",
+        "697e1b5d-77da-41a6-87c4-185b42e6c5f3"
+      ],
+      "settings": {
+        "title": "WHY INCLUDE THIS SUPERFOOD IN YOUR DAILY DIET",
+        "align_text": "center",
+        "alt": true
+      }
+    },
+    "16610150728ebfd741": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "ENJOY ALL BENEFITS NOW",
+        "title": "WHY SUBSCRIBE",
+        "text": "<p>Automatize your orders fulfillment <\/p><p>Save more with additional discounts<\/p><p>Automatic payments<\/p><p>Get free shipping<\/p><p>Keep control of your purchase history deliveries and subscriptions<\/p><p>Skip, reschedule, edit, or cancel deliveries anytime<\/p><p>Free gifts and giveaways<\/p><p>And more!<\/p>",
+        "button_label": "SUBSCRIBE AND SAVE",
+        "button_link": "shopify:\/\/collections\/all",
+        "image": "shopify:\/\/shop_images\/Avocado_Smoothie_jpg.jpg",
+        "desktop_size": -20,
+        "color_border": "#000000",
+        "layout": "left",
+        "lazyload_images": true
+      }
+    },
+    "1661015465694851a1": {
+      "type": "text-columns",
+      "blocks": {
+        "1661015465956a4703-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/WAKI_GO_Subscriptions_Mesa_de_trabajo_1.png",
+            "image_mask": "none",
+            "image_width": 550,
+            "title": "Select Your Products",
+            "text": "<p>Choose any delicious products your want to subscribe.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1661015465956a4703-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Arrows_Frequency.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Choose Frequency",
+            "text": "<p>Choose how often you want product delivered.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "15a0c03c-e58a-4ec0-b7d4-49219a2779b2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Calendar_Icon_41ce4b49-033b-4688-b305-3cb1b3708016.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Flexible Schedule",
+            "text": "<p>Easily change pause, skip or cancel at any time.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661015465956a4703-0",
+        "1661015465956a4703-1",
+        "15a0c03c-e58a-4ec0-b7d4-49219a2779b2"
+      ],
+      "settings": {
+        "title": "HOW IT WORKS?",
+        "align_text": "center",
+        "alt": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16452083393cfa24a5",
+    "1661014030aea2179f",
+    "16610150728ebfd741",
+    "1661015465694851a1"
+  ]
+}
