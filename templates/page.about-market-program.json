@@ -84,33 +84,6 @@
         "lazyload_images": true
       }
     },
-    "16491856978eeeaf10": {
-      "type": "hero-animated",
-      "blocks": {
-        "16491856979cc337f4-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Whole-Sale-Market-Image-final.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Whole-Sale-Market-Image-final.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "16491856979cc337f4-0"
-      ],
-      "settings": {
-        "style": "fading",
-        "title": "JOIN OUR WHOLESALE PROGRAM",
-        "title_size": 80,
-        "subheading": "Get discounted pricing & more exclusive benefits.",
-        "link": "",
-        "link_text": "",
-        "color_accent": "#10b729",
-        "text_align": "vertical-top horizontal-center",
-        "desktop_size": 0,
-        "mobile_size": 80
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -123,7 +96,6 @@
     "16485300968ba099a8",
     "16485306499c4afe7c",
     "1655247029667f7e25",
-    "16491856978eeeaf10",
     "main"
   ]
 }
