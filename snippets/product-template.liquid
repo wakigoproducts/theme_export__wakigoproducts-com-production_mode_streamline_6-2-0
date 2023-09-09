@@ -138,6 +138,8 @@
               {%- if blocks -%}
                 {%- for block in blocks -%}
                   {%- case block.type -%}
+                    {% when 'custom_liquid' %}
+                    {{block.settings.custom_liquid}}
                     {%- when '@app' -%}
                       {% render block %}
                     {%- when 'separator' -%}
