@@ -179,12 +179,12 @@
         "f0800936-bb1f-40ed-82c5-4746d3957255"
       ],
       "custom_css": [
-        "@media screen and (max-width: 990px) {section[id*=\"__image_banner\"] {display: none;}}"
+
       ],
       "settings": {
         "style": "dots",
         "desktop_size": 0,
-        "mobile_size": 30,
+        "mobile_size": 0,
         "autoplay": true,
         "autoplay_speed": 8,
         "lazyload_images": true
