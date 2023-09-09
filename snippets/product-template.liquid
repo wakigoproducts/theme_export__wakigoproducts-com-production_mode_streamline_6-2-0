@@ -360,7 +360,7 @@
                     {%- when 'inventory_status' -%}
                       {%- render 'product-inventory', section_id: section_id, product: product, current_variant: current_variant, block: block -%}
                     {%- when 'share' -%}
-                      <div class="product-block" {{ block.shopify_attributes }}>
+                      <div class="product-block 1" {{ block.shopify_attributes }}>
                         {%- render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product -%}
                       </div>
                     {%- when 'complementary_products' -%}
