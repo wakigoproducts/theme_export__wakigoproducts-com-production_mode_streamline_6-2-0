@@ -1,1 +1,61 @@
-{"sections":{"main":{"type":"blog-template","disabled":true,"settings":{"layout":"grid","post_limit":9,"blog_show_tag_filter":false,"blog_show_rss":false,"blog_show_tags":false,"blog_show_date":true,"blog_show_comments":true,"blog_show_author":false,"blog_show_excerpt":false,"blog_image_size":"wide"}},"90932789-dd44-4837-889e-0966db6f02d0":{"type":"hero-video","settings":{"title":"OUTER SPACE\nAVOCADO SNACKS","title_size":80,"subheading":"","link_text":"ABOUT FREEZE DRIED","link":"shopify:\/\/blogs\/about-freeze-dried\/food-in-space-2","color_accent":"rgba(0,0,0,0)","text_align":"vertical-center horizontal-center","video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3943b1ea44fb40a7b4754db3403dc3f8.mp4","section_height":"850px","mobile_height":"250px"}},"0b6fa459-c7cc-4d8d-8f0b-6a6a507f62ff":{"type":"text-and-image","settings":{"image":"shopify:\/\/shop_images\/Hassman_10_LR.jpg","image_mask":"none","image2_mask":"none","subtitle":"SNACKS ADVANCED TECHNOLOGY","title":"SPACE FOOD","text":"<p>Scientists have come up with special way of packaging and eating foods in space. Freeze-drying is one technique they use so food doesn’t need to be refrigerated and last longer offering the best shelf life and preserves the most minerals, enzymes, and other nutrients, all it takes out is just the water.<\/p><p><br\/>WAKI GO® is making the best tasty and yummy space food that will give astronauts the nutrients they need to do their jobs well.<\/p>","button_label":"MORE ABOUT FREEZE DRIED","button_link":"shopify:\/\/blogs\/about-freeze-dried\/food-in-space-2","button_style":"primary","align_text":"center","image_width":"50","layout":"right","alt":true,"top_padding":true,"bottom_padding":true,"lazyload_images":true}}},"order":["main","90932789-dd44-4837-889e-0966db6f02d0","0b6fa459-c7cc-4d8d-8f0b-6a6a507f62ff"]}
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "post_limit": 9,
+        "blog_show_tag_filter": false,
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "wide"
+      }
+    },
+    "90932789-dd44-4837-889e-0966db6f02d0": {
+      "type": "hero-video",
+      "settings": {
+        "title": "OUTER SPACE\nAVOCADO SNACKS",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "ABOUT FREEZE DRIED",
+        "link": "shopify:\/\/blogs\/about-freeze-dried\/food-in-space-2",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3943b1ea44fb40a7b4754db3403dc3f8.mp4",
+        "section_height": "850px",
+        "mobile_height": "250px"
+      }
+    },
+    "0b6fa459-c7cc-4d8d-8f0b-6a6a507f62ff": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hassman_10_LR.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "SNACKS ADVANCED TECHNOLOGY",
+        "title": "SPACE FOOD",
+        "text": "<p>Scientists have developed unique methods for packaging and consuming space food. Freeze-drying is one such technique that eliminates the need for refrigeration, extending shelf life while preserving essential minerals, enzymes, and nutrients by removing only water. <\/p><p>WAKI GO® is making the best tasty and yummy space food that will give astronauts the nutrients they need to do their jobs well.<\/p>",
+        "button_label": "MORE ABOUT FREEZE DRIED",
+        "button_link": "shopify:\/\/blogs\/about-freeze-dried\/food-in-space-2",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "alt": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "90932789-dd44-4837-889e-0966db6f02d0",
+    "0b6fa459-c7cc-4d8d-8f0b-6a6a507f62ff"
+  ]
+}
