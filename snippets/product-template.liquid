@@ -365,7 +365,7 @@
                       </div>
                     
                     {% when 'custom_liquid' %}
-                    {{ product.metafields.custom.features | metafield_tag }}
+                    {{block.settings.custom_liquid}}
                     {%- when 'complementary_products' -%}
                       <div class="product-block" {{ block.shopify_attributes }}>
                         {%- render 'product-complementary', block: block, product: product, type: 'block', image_style: block.settings.image_style -%}
