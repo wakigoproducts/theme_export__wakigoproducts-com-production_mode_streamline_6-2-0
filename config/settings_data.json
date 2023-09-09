@@ -658,7 +658,8 @@
       ".as-flex.as-justify-between.as-items-center.as-mb-1.as-product-details_header {margin-bottom: 0px !important;}",
       "tr.as-bg-white.as-border-b.hover\\:as-bg-gray-50.as-product-line {background-color: #000 !important; border-width: 0px;}",
       "a.appstle_manageSubBtn {left: 105% !important; top: 215px !important;}",
-      "p.as-text-sm.as-text-blue-500.as-cursor-pointer.as-cta.as-card_cta.as-edit-pyment_cta,p.as-text-sm.as-text-blue-500.as-cursor-pointer.as-cta.as-card_cta.as-edit-shipping_cta {color: #fff !important;}"
+      "p.as-text-sm.as-text-blue-500.as-cursor-pointer.as-cta.as-card_cta.as-edit-pyment_cta,p.as-text-sm.as-text-blue-500.as-cursor-pointer.as-cta.as-card_cta.as-edit-shipping_cta {color: #fff !important;}",
+      "@media screen and (min-width: 1200px) {.slideshow__slide.slideshow__slide--f0800936-bb1f-40ed-82c5-4746d3957255.is-selected{display: none !important; }}"
     ]
   }
 }
