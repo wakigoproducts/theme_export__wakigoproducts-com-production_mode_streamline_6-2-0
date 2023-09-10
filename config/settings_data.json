@@ -52,7 +52,7 @@
     "enable_product_reviews": false,
     "quick_shop_enable": false,
     "quick_shop_style": "full",
-    "product_image_size": "small",
+    "product_image_size": "medium",
     "product_image_type": "slider",
     "cart_type": "page",
     "cart_icon": "cart",
