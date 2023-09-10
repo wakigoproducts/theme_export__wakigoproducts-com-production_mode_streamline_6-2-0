@@ -186,7 +186,7 @@
         "desktop_size": 0,
         "mobile_size": 30,
         "autoplay": true,
-        "autoplay_speed": 8,
+        "autoplay_speed": 10,
         "lazyload_images": true
       }
     },
