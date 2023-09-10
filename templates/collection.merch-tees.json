@@ -1,0 +1,75 @@
+{
+  "sections": {
+    "a4ae8276-9ba9-400c-a860-c75c9dbc94e7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "#SNACKINSTYLE",
+        "description": "",
+        "home_featured_products": "merch",
+        "rows": 4,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": true,
+        "alt": true
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "Two line\nslide title.",
+            "title_size": 80,
+            "subheading": "And an optional subheading",
+            "link": "",
+            "link_text": "Optional button",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-left"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "per_row_desktop": 3,
+            "per_row_mobile": "1"
+          }
+        },
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_grid",
+        "collection_description"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "a4ae8276-9ba9-400c-a860-c75c9dbc94e7",
+    "slideshow",
+    "main-collection"
+  ]
+}
