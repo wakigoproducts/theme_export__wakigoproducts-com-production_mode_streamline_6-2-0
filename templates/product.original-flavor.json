@@ -61,8 +61,8 @@
         "d4977c1f-a955-4af1-be2a-b6baa82ddffe"
       ],
       "settings": {
-        "product_image_size": "small",
-        "product_image_type": "stacked",
+        "product_image_size": "medium",
+        "product_image_type": "slider",
         "thumbnail_height": "flexible",
         "product_zoom_enable": true,
         "enable_video_looping": true,
