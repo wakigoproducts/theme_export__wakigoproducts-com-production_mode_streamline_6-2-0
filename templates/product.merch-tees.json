@@ -1,0 +1,176 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "0be98830-675b-4e19-9f54-1c20c2fd4e32": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "USA shipping only"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "56e94db1-2299-4045-8084-48ff8c9026ca": {
+          "type": "custom_liquid",
+          "settings": {
+            "heading": "Custom Liquid",
+            "custom_liquid": "{{ product.metafields.custom.features | metafield_tag  }}"
+          }
+        },
+        "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "0be98830-675b-4e19-9f54-1c20c2fd4e32",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "56e94db1-2299-4045-8084-48ff8c9026ca",
+        "2b75e8e0-09b9-47b7-bd0b-551897063ef3"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "stacked",
+        "thumbnail_height": "flexible",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": true
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WAKI-GO_Homemade_Football_Combo_aa9cee6a-e8a8-400b-ad90-1c0833c1bf7d.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "MVP SNACK OF THE YEAR",
+        "text": "<p>Ready in One Minute and made with 100% natural hass avocado. This pack is the perfect on-the-go food and snack for anyone looking for delicious Mexican food flavor and prepare easy guacamole snacks.<\/p><p>Warning: Always ready for any sports game.<\/p><p><strong>Ingredients:<\/strong> Hass avocado, onion, tomato, coriander, jalapeno pepper, lemon juice and salt.<\/p><p><strong>Conservation<\/strong>: Store at 77°F (25°C) or below in a cool dry place and out of direct sunlight.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "66",
+        "layout": "left",
+        "alt": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "bc3d504f-6f5b-4e81-a19d-4bd3f9d07846": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--15665937678436__bc3d504f-6f5b-4e81-a19d-4bd3f9d07846-16819562059a453197-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<script src=\"https:\/\/apps.elfsight.com\/p\/platform.js\" defer><\/script>\n<div class=\"elfsight-app-0c79a3a3-b834-49d9-9d51-607d138a8102\"><\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15665937678436__bc3d504f-6f5b-4e81-a19d-4bd3f9d07846-16819562059a453197-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false,
+        "lazyload_images": true
+      }
+    },
+    "2354b785-afca-4970-bccc-282d748d1830": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "READY IN ONE MINUTE",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0f3756baea114671b9ff5bb734e33dc1.mp4",
+        "section_height": "550px",
+        "mobile_height": "auto"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 14
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text-and-image",
+    "bc3d504f-6f5b-4e81-a19d-4bd3f9d07846",
+    "2354b785-afca-4970-bccc-282d748d1830",
+    "collection-return",
+    "product-recommendations",
+    "sub"
+  ]
+}
