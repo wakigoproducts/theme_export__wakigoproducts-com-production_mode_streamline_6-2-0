@@ -51,7 +51,7 @@
     "enable_swatches": true,
     "enable_product_reviews": false,
     "quick_shop_enable": true,
-    "quick_shop_style": "product",
+    "quick_shop_style": "full",
     "product_image_size": "large",
     "product_image_type": "slider",
     "cart_type": "page",
