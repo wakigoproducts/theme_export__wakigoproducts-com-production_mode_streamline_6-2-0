@@ -36,6 +36,12 @@
             "inventory_transfers_enable": true
           }
         },
+        "589b37fa-8eb9-46ea-86e6-3ce898b7161c": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "size-chart"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -68,6 +74,7 @@
         "0be98830-675b-4e19-9f54-1c20c2fd4e32",
         "sales_point",
         "inventory_status",
+        "589b37fa-8eb9-46ea-86e6-3ce898b7161c",
         "buy_buttons",
         "description",
         "56e94db1-2299-4045-8084-48ff8c9026ca",
