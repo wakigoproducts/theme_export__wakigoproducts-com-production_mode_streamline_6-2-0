@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1685407854,
+  "tsPublished": 1694646753,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -86,6 +86,9 @@
       },
       "erasureSectionParagraphText": {
         "en": "You have the right to ask all your data to be erased. After that, you will no longer be able to access your account."
+      },
+      "declIntroText": {
+        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies."
       }
     },
     "categories": {
