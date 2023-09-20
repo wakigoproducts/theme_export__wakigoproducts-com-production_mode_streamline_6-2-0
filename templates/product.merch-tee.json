@@ -55,18 +55,18 @@
             "is_tab": false
           }
         },
-        "56e94db1-2299-4045-8084-48ff8c9026ca": {
-          "type": "custom_liquid",
-          "settings": {
-            "heading": "Custom Liquid",
-            "custom_liquid": "{{ product.metafields.custom.features | metafield_tag  }}"
-          }
-        },
         "56324e98-d446-48c2-a2f8-c92eb023cb5f": {
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
             "custom_liquid": "{{ product.metafields.custom.composition | metafield_tag  }}"
+          }
+        },
+        "56e94db1-2299-4045-8084-48ff8c9026ca": {
+          "type": "custom_liquid",
+          "settings": {
+            "heading": "Custom Liquid",
+            "custom_liquid": "{{ product.metafields.custom.features | metafield_tag  }}"
           }
         },
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
@@ -84,8 +84,8 @@
         "inventory_status",
         "buy_buttons",
         "description",
-        "56e94db1-2299-4045-8084-48ff8c9026ca",
         "56324e98-d446-48c2-a2f8-c92eb023cb5f",
+        "56e94db1-2299-4045-8084-48ff8c9026ca",
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3"
       ],
       "settings": {
