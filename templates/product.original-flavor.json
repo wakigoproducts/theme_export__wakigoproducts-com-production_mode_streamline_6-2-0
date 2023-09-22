@@ -44,6 +44,20 @@
             "is_tab": false
           }
         },
+        "95b12838-5279-4395-a9a0-e618071e86b8": {
+          "type": "custom_liquid",
+          "settings": {
+            "heading": "Custom Liquid",
+            "custom_liquid": "{{ product.metafields.custom.composition | metafield_tag  }}"
+          }
+        },
+        "13906586-9394-4f71-b20c-fc893434eeff": {
+          "type": "custom_liquid",
+          "settings": {
+            "heading": "Custom Liquid",
+            "custom_liquid": "{{ product.metafields.custom.features | metafield_tag  }}"
+          }
+        },
         "d4977c1f-a955-4af1-be2a-b6baa82ddffe": {
           "type": "trust_badge",
           "settings": {
@@ -58,6 +72,8 @@
         "inventory_status",
         "buy_buttons",
         "description",
+        "95b12838-5279-4395-a9a0-e618071e86b8",
+        "13906586-9394-4f71-b20c-fc893434eeff",
         "d4977c1f-a955-4af1-be2a-b6baa82ddffe"
       ],
       "settings": {
