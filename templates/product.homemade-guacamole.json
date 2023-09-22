@@ -49,24 +49,24 @@
             "is_tab": false
           }
         },
-        "d4977c1f-a955-4af1-be2a-b6baa82ddffe": {
-          "type": "trust_badge",
-          "settings": {
-            "trust_image": "shopify:\/\/shop_images\/Benefits_Icons_2_447c9c99-74d9-40b1-b9fe-28e8f0e41d41.png"
-          }
-        },
         "e39fe929-7d89-4927-bcbd-346a6a4d6197": {
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
-            "custom_liquid": ""
+            "custom_liquid": "{{ product.metafields.custom.composition | metafield_tag  }}"
           }
         },
         "b03b7214-4d57-490a-b13f-7c202c1b39ea": {
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
-            "custom_liquid": ""
+            "custom_liquid": "{{ product.metafields.custom.features | metafield_tag  }}"
+          }
+        },
+        "d4977c1f-a955-4af1-be2a-b6baa82ddffe": {
+          "type": "trust_badge",
+          "settings": {
+            "trust_image": "shopify:\/\/shop_images\/Benefits_Icons_2_447c9c99-74d9-40b1-b9fe-28e8f0e41d41.png"
           }
         }
       },
@@ -78,9 +78,9 @@
         "inventory_status",
         "buy_buttons",
         "description",
-        "d4977c1f-a955-4af1-be2a-b6baa82ddffe",
         "e39fe929-7d89-4927-bcbd-346a6a4d6197",
-        "b03b7214-4d57-490a-b13f-7c202c1b39ea"
+        "b03b7214-4d57-490a-b13f-7c202c1b39ea",
+        "d4977c1f-a955-4af1-be2a-b6baa82ddffe"
       ],
       "settings": {
         "product_image_size": "large",
