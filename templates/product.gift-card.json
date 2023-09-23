@@ -1,1 +1,62 @@
-{"sections":{"main":{"type":"main-product","blocks":{"price":{"type":"price","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"inventory_status":{"type":"inventory_status","settings":{}},"share":{"type":"share","settings":{}},"sales_point":{"type":"sales_point","settings":{}},"tab":{"type":"tab","settings":{}},"text":{"type":"text","settings":{}},"separator":{"type":"separator","settings":{}},"contact":{"type":"contact","settings":{}}},"block_order":["description","variant_picker","buy_buttons","share"],"settings":{}},"sub":{"type":"product-full-width","disabled":true,"settings":{}}},"order":["main","sub"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "variant_picker",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "product_image_size": "medium",
+        "product_image_type": "slider",
+        "thumbnail_height": "flexible",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub"
+  ]
+}
