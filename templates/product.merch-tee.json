@@ -69,13 +69,6 @@
             "custom_liquid": "{{ product.metafields.custom.features | metafield_tag  }}"
           }
         },
-        "c0415ad4-0500-411a-ac4b-31961f0541a6": {
-          "type": "custom_liquid",
-          "settings": {
-            "heading": "Custom Liquid",
-            "custom_liquid": "{{ product.metafields.custom.size_chart | metafield_tag  }}"
-          }
-        },
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3": {
           "type": "share",
           "settings": {
@@ -93,7 +86,6 @@
         "description",
         "56324e98-d446-48c2-a2f8-c92eb023cb5f",
         "56e94db1-2299-4045-8084-48ff8c9026ca",
-        "c0415ad4-0500-411a-ac4b-31961f0541a6",
         "2b75e8e0-09b9-47b7-bd0b-551897063ef3"
       ],
       "settings": {
