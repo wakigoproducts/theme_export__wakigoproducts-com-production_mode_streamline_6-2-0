@@ -78,7 +78,7 @@
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
-            "custom_liquid": "{{ product.metafields.custom.c010 }}"
+            "custom_liquid": "<a target=\"_blank\" rel=\"{{ product.metafields.custom.c010 }}\" href=\"\/\/www.facebook.com\/sharer.php?u=https:\/\/wakigoproducts.com\/products\/guac-stripes-tee\" class=\"social-sharing__link js-no-transition\" title=\"Share on Facebook\">\n      <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-facebook\" viewBox=\"0 0 14222 14222\"><path d=\"M14222 7112c0 3549.352-2600.418 6491.344-6000 7024.72V9168h1657l315-2056H8222V5778c0-562 275-1111 1159-1111h897V2917s-814-139-1592-139c-1624 0-2686 984-2686 2767v1567H4194v2056h1806v4968.72C2600.418 13603.344 0 10661.352 0 7112 0 3184.703 3183.703 1 7111 1s7111 3183.703 7111 7111zm-8222 7025c362 57 733 86 1111 86-377.945 0-749.003-29.485-1111-86.28zm2222 0v-.28a7107.458 7107.458 0 0 1-167.717 24.267A7407.158 7407.158 0 0 0 8222 14137zm-167.717 23.987C7745.664 14201.89 7430.797 14223 7111 14223c319.843 0 634.675-21.479 943.283-62.013z\"><\/path><\/svg>\n      <span class=\"social-sharing__title\" aria-hidden=\"true\">Share<\/span>\n      <span class=\"visually-hidden\">Share on Facebook<\/span>\n    <\/a>"
           }
         }
       },
