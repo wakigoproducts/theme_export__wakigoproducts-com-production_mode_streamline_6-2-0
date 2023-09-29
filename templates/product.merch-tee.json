@@ -78,7 +78,7 @@
           "type": "custom_liquid",
           "settings": {
             "heading": "Custom Liquid",
-            "custom_liquid": "{{ product.metafields.custom.size_chart | metafield_tag }}"
+            "custom_liquid": "{{ product.metafields.custom.size_chart }}"
           }
         }
       },
