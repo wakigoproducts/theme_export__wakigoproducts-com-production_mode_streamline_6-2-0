@@ -307,6 +307,9 @@
                       </div>
                     
                     {%- when 'buy_buttons' -%}
+                                             <!-- Order Tracking Banner -->
+                          {{ shop.metafields.gzapps.otp-eddw }}
+                         <!-- Order Tracking Banner --> 
                       <div class="product-block" {{ block.shopify_attributes }}>
                         {%- unless product.empty? -%}
                           <div class="product-block">
@@ -318,9 +321,7 @@
                               current_variant: current_variant
                             -%}
                           </div>
-                         <!-- Order Tracking Banner -->
-                          {{ shop.metafields.gzapps.otp-eddw }}
-                         <!-- Order Tracking Banner -->   
+  
                         {%- endunless -%}
 
                         {%- if block.settings.surface_pickup_enable -%}
