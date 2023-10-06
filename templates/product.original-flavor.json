@@ -17,6 +17,11 @@
             "color_swatches": false
           }
         },
+        "fdba11a3-0374-48e5-902d-d72fe5c1914c": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "sales_point": {
           "type": "sales_point",
           "settings": {
@@ -68,6 +73,7 @@
       "block_order": [
         "price",
         "variant_picker",
+        "fdba11a3-0374-48e5-902d-d72fe5c1914c",
         "sales_point",
         "inventory_status",
         "buy_buttons",
