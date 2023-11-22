@@ -67,7 +67,7 @@
         cartItems: {{ 'cart.general.item_count' | t: count: '[count]' | json }},
         cartConfirmDelete: {{ 'cart.general.delete_confirm' | t | json }},
         cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }},
-        maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
+      
       },
       settings: {
         cartType: {{ settings.cart_type | json }},
