@@ -31,6 +31,51 @@
         "mobile_height": "250px"
       }
     },
+    "d84a2e4c-51ea-4f64-9ae6-f850c42abb9a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15689906978916__d84a2e4c-51ea-4f64-9ae6-f850c42abb9a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15689906978916__d84a2e4c-51ea-4f64-9ae6-f850c42abb9a-heading-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "13f65ff7-7ba2-46b3-8b85-f858373d58bd": {
+      "type": "hero-animated",
+      "blocks": {
+        "template--15689906978916__13f65ff7-7ba2-46b3-8b85-f858373d58bd-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WAKI_GO_Vision_Quote_Mesa_de_trabajo_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--15689906978916__13f65ff7-7ba2-46b3-8b85-f858373d58bd-image-1"
+      ],
+      "settings": {
+        "style": "gif",
+        "title": "",
+        "title_size": 81,
+        "subheading": "",
+        "link": "",
+        "link_text": "Optional button",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
     "0b6fa459-c7cc-4d8d-8f0b-6a6a507f62ff": {
       "type": "text-and-image",
       "settings": {
@@ -56,6 +101,8 @@
   "order": [
     "main",
     "90932789-dd44-4837-889e-0966db6f02d0",
+    "d84a2e4c-51ea-4f64-9ae6-f850c42abb9a",
+    "13f65ff7-7ba2-46b3-8b85-f858373d58bd",
     "0b6fa459-c7cc-4d8d-8f0b-6a6a507f62ff"
   ]
 }
