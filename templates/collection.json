@@ -1,1 +1,89 @@
-{"sections":{"fc99c2ba-07d2-44b6-a19b-8df96c8a25ea":{"type":"hero-video","settings":{"title":"POWERED BY REAL HASS AVOCADO","title_size":40,"subheading":"","link_text":"","link":"","color_accent":"rgba(0,0,0,0)","text_align":"vertical-top horizontal-center","video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8578e36ddf64feb98c010ff22633e92.mp4","section_height":"100vh","mobile_height":"250px"}},"d73d5d7a-5821-4f79-beb0-252bd63103a7":{"type":"featured-collection","settings":{"title":"OUR PRODUCTS","description":"","home_featured_products":"freeze-dried-avocado","rows":1,"per_row_desktop":3,"per_row_mobile":"1","view_all":true,"alt":false}},"f5ee0e5d-067e-483e-8e23-a1a0a5dbfb90":{"type":"hero-video","settings":{"title":"WARNING: TOO DRY TO BE FREEZED","title_size":80,"subheading":"EAT, SLEEP, SNACK, REPEAT","link_text":"","link":"","color_accent":"rgba(0,0,0,0)","text_align":"vertical-center horizontal-center","video_url":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3b29c57b17094bc686fb4215da804309.mp4","section_height":"650px","mobile_height":"auto"}},"collection-filters":{"type":"collection-filters","disabled":true,"settings":{"enable_color_swatches":false,"collection_sort_enable":false}},"main-collection":{"type":"main-collection","disabled":true,"blocks":{"product_grid":{"type":"product_grid","settings":{"per_row_desktop":3,"per_row_mobile":"1"}}},"block_order":["product_grid"],"settings":{}},"collection-header":{"type":"collection-header","disabled":true,"settings":{"collection_image_enable":true,"description_enable":true}}},"order":["fc99c2ba-07d2-44b6-a19b-8df96c8a25ea","d73d5d7a-5821-4f79-beb0-252bd63103a7","f5ee0e5d-067e-483e-8e23-a1a0a5dbfb90","collection-filters","main-collection","collection-header"]}
+{
+  "sections": {
+    "fc99c2ba-07d2-44b6-a19b-8df96c8a25ea": {
+      "type": "hero-video",
+      "settings": {
+        "title": "POWERED BY REAL HASS AVOCADO",
+        "title_size": 40,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-top horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8578e36ddf64feb98c010ff22633e92.mp4",
+        "section_height": "100vh",
+        "mobile_height": "250px"
+      }
+    },
+    "d73d5d7a-5821-4f79-beb0-252bd63103a7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OUR PRODUCTS",
+        "description": "",
+        "home_featured_products": "freeze-dried",
+        "rows": 1,
+        "per_row_desktop": 3,
+        "per_row_mobile": "1",
+        "view_all": true,
+        "alt": false
+      }
+    },
+    "f5ee0e5d-067e-483e-8e23-a1a0a5dbfb90": {
+      "type": "hero-video",
+      "settings": {
+        "title": "WARNING: TOO DRY TO BE FREEZED",
+        "title_size": 80,
+        "subheading": "EAT, SLEEP, SNACK, REPEAT",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3b29c57b17094bc686fb4215da804309.mp4",
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "collection-filters": {
+      "type": "collection-filters",
+      "disabled": true,
+      "settings": {
+        "enable_color_swatches": false,
+        "collection_sort_enable": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "per_row_desktop": 3,
+            "per_row_mobile": "1"
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "collection_image_enable": true,
+        "description_enable": true
+      }
+    }
+  },
+  "order": [
+    "fc99c2ba-07d2-44b6-a19b-8df96c8a25ea",
+    "d73d5d7a-5821-4f79-beb0-252bd63103a7",
+    "f5ee0e5d-067e-483e-8e23-a1a0a5dbfb90",
+    "collection-filters",
+    "main-collection",
+    "collection-header"
+  ]
+}
