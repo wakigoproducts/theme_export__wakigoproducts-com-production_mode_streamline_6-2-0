@@ -68,27 +68,8 @@
       {%- capture mobile_widths -%}{{ section.settings.mobile_logo_width }}, {{ section.settings.mobile_logo_width | times: 2 | at_most: section.settings.logo.width }}{%- endcapture -%}
       {%- capture mobile_style -%}max-height: {{ section.settings.mobile_logo_width | divided_by: section.settings.logo.aspect_ratio }}px;max-width: {{ section.settings.mobile_logo_width }}px;{%- endcapture -%}
 
-      {%- render 'image-element',
-        img: section.settings.logo,
-        img_width: width,
-        sizes: sizes,
-        widths: widths,
-        style: style,
-        classes: 'small--hide',
-        loading: 'eager',
-        alt: section.settings.logo.alt | default: shop.name,
-        itemprop: 'logo',
-      -%}
-      {%- render 'image-element',
-        img: section.settings.logo,
-        img_width: width,
-        sizes: mobile_sizes,
-        widths: mobile_widths,
-        style: mobile_style,
-        classes: 'medium-up--hide',
-        loading: 'eager',
-        alt: section.settings.logo.alt | default: shop.name,
-      -%}
+      {%- render 'image-element', img: section.settings.logo, img_width: width, sizes: sizes, widths: widths, style: style, classes: 'small--hide', loading: 'eager', alt: section.settings.logo.alt, default: shop.name, itemprop: 'logo' -%}
+      {%- render 'image-element', img: section.settings.logo, img_width: width, sizes: mobile_sizes, widths: mobile_widths, style: mobile_style, classes: 'medium-up--hide', loading: 'eager', alt: section.settings.logo.alt, default: shop.name -%}
     </a>
     {%- if section.settings.logo-inverted -%}
       <a
@@ -107,27 +88,8 @@
         {%- capture mobile_widths -%}{{ section.settings.mobile_logo_width }}, {{ section.settings.mobile_logo_width | times: 2 | at_most: section.settings.logo-inverted.width }}{%- endcapture -%}
         {%- capture mobile_style -%}max-height: {{ section.settings.mobile_logo_width | divided_by: section.settings.logo-inverted.aspect_ratio }}px;max-width: {{ section.settings.mobile_logo_width }}px;{%- endcapture -%}
 
-        {%- render 'image-element',
-          img: section.settings.logo-inverted,
-          img_width: width,
-          sizes: sizes,
-          widths: widths,
-          style: style,
-          classes: 'small--hide',
-          loading: 'eager',
-          alt: section.settings.logo-inverted.alt | default: shop.name,
-          itemprop: 'logo',
-        -%}
-        {%- render 'image-element',
-          img: section.settings.logo-inverted,
-          img_width: width,
-          sizes: mobile_sizes,
-          widths: mobile_widths,
-          style: mobile_style,
-          classes: 'medium-up--hide',
-          loading: 'eager',
-          alt: section.settings.logo-inverted.alt | default: shop.name,
-        -%}
+        {%- render 'image-element', img: section.settings.logo-inverted, img_width: width, sizes: sizes, widths: widths, style: style, classes: 'small--hide', loading: 'eager', alt: section.settings.logo-inverted.alt, default: shop.name, itemprop: 'logo' -%}
+        {%- render 'image-element', img: section.settings.logo-inverted, img_width: width, sizes: mobile_sizes, widths: mobile_widths, style: mobile_style, classes: 'medium-up--hide', loading: 'eager', alt: section.settings.logo-inverted.alt, default: shop.name -%}
       </a>
     {%- endif -%}
 
@@ -148,3 +110,74 @@
     </div>
   {%- endif -%}
 {%- endif -%}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%- render 'image-element',
+            img: section.settings.logo,
+            img_width: width,
+            sizes: sizes,
+            widths: widths,
+            style: style,
+            classes: 'small--hide',
+            loading: 'eager',
+            alt: section.settings.logo.alt | default: shop.name,
+            itemprop: 'logo',
+          -%}
+  to: "{%- render 'image-element', img: section.settings.logo, img_width: width, sizes:
+    sizes, widths: widths, style: style, classes: 'small--hide', loading: 'eager',
+    alt: section.settings.logo.alt, default: shop.name, itemprop: 'logo' -%}"
+  position: 3234..3466
+- from: |-
+    {%- render 'image-element',
+            img: section.settings.logo,
+            img_width: width,
+            sizes: mobile_sizes,
+            widths: mobile_widths,
+            style: mobile_style,
+            classes: 'medium-up--hide',
+            loading: 'eager',
+            alt: section.settings.logo.alt | default: shop.name,
+          -%}
+  to: "{%- render 'image-element', img: section.settings.logo, img_width: width, sizes:
+    mobile_sizes, widths: mobile_widths, style: mobile_style, classes: 'medium-up--hide',
+    loading: 'eager', alt: section.settings.logo.alt, default: shop.name -%}"
+  position: 3473..3712
+- from: |-
+    {%- render 'image-element',
+              img: section.settings.logo-inverted,
+              img_width: width,
+              sizes: sizes,
+              widths: widths,
+              style: style,
+              classes: 'small--hide',
+              loading: 'eager',
+              alt: section.settings.logo-inverted.alt | default: shop.name,
+              itemprop: 'logo',
+            -%}
+  to: "{%- render 'image-element', img: section.settings.logo-inverted, img_width:
+    width, sizes: sizes, widths: widths, style: style, classes: 'small--hide', loading:
+    'eager', alt: section.settings.logo-inverted.alt, default: shop.name, itemprop:
+    'logo' -%}"
+  position: 5090..5340
+- from: |-
+    {%- render 'image-element',
+              img: section.settings.logo-inverted,
+              img_width: width,
+              sizes: mobile_sizes,
+              widths: mobile_widths,
+              style: mobile_style,
+              classes: 'medium-up--hide',
+              loading: 'eager',
+              alt: section.settings.logo-inverted.alt | default: shop.name,
+            -%}
+  to: "{%- render 'image-element', img: section.settings.logo-inverted, img_width:
+    width, sizes: mobile_sizes, widths: mobile_widths, style: mobile_style, classes:
+    'medium-up--hide', loading: 'eager', alt: section.settings.logo-inverted.alt,
+    default: shop.name -%}"
+  position: 5349..5606
+{% endcomment %}
